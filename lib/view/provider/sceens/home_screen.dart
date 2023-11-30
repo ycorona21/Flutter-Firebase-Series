@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/features/user_auth/presentation/pages/categorias_screen.dart';
-import 'package:flutter_firebase/features/user_auth/presentation/pages/novel_description.dart';
-import 'package:flutter_firebase/features/user_auth/presentation/pages/user_info.dart';
+import 'package:flutter_firebase/view/provider/sceens/categorias_screen.dart';
+import 'package:flutter_firebase/view/provider/sceens/novel_description.dart';
+import 'package:flutter_firebase/view/provider/sceens/user_info.dart';
 
 class HomeScreen extends StatelessWidget {
   static const String screenName = 'home_screen';
@@ -40,7 +40,7 @@ class WidgetDrawer extends StatelessWidget {
                   width: 150,
                   height: 200,
                   margin: const EdgeInsets.only(bottom: 10, top: 50),
-                  child: Image.asset('resource/images/logoUnovels.png'),
+                  child: Image.asset(''),
                 ),
                 Container(
                   padding: const EdgeInsets.all(5),

@@ -1,9 +1,9 @@
-import 'package:flutter_firebase/features/user_auth/presentation/pages/home_screen.dart';
-import 'package:flutter_firebase/features/user_auth/presentation/pages/user_info.dart';
+import 'package:flutter_firebase/view/provider/sceens/home_screen.dart';
+import 'package:flutter_firebase/view/provider/sceens/user_info.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter/material.dart';
 
-import '../../../features/user_auth/presentation/pages/splash_screen.dart';
+import '../../../view/provider/sceens/splash_screen.dart';
 
 final List<RouteBase> routes = [
   GoRoute(

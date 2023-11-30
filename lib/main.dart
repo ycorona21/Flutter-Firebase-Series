@@ -2,11 +2,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // Import Firebase Auth
-import 'package:flutter_firebase/features/app/splash_screen/splash_screen.dart';
-import 'package:flutter_firebase/features/user_auth/presentation/pages/home_screen.dart';
+import 'package:flutter_firebase/view/provider/sceens/splash_screeen.dart';
+import 'package:flutter_firebase/view/provider/sceens/home_screen.dart';
 
-import 'package:flutter_firebase/features/user_auth/presentation/pages/login_page.dart';
-import 'package:flutter_firebase/features/user_auth/presentation/pages/sign_up_page.dart';
+import 'package:flutter_firebase/view/provider/sceens/login_page.dart';
+import 'package:flutter_firebase/view/provider/sceens/sign_up_page.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
